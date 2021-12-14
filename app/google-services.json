@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079756110306",
+    "project_id": "diabetic2-b9422",
+    "storage_bucket": "diabetic2-b9422.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079756110306:android:d7c2edf5fcecc2b80f61bb",
+        "android_client_info": {
+          "package_name": "com.example.diabetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079756110306-j0b11trr6oiblq20g7g17a3gqvm2e9ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDFAngL3lyT8vpt4ZygaXQ6YG6Ucc_tNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079756110306-j0b11trr6oiblq20g7g17a3gqvm2e9ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

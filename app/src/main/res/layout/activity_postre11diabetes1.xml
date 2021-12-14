@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Postre11diabetes1">
+    <Button
+        android:id="@+id/btnsalir6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="Regresar"
+        android:textColor="#267D20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="281dp"
+        android:layout_height="37dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Flan sin Azucar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="103dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/logodiabetic" />
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="680dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="394dp"
+                android:layout_height="285dp"
+                app:srcCompat="@drawable/flanrounder" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="281dp"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Ingredientes:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="281dp"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- ½ litro de leche desnatada."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- 3 huevos."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- 1 cucharada de edulcorante apto para diabéticos (stevia, sacarina, etc.)"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Esencia de vainilla al gusto"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Preparacion:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El primer paso para preparar tu flan casero para diabéticos será calentar la leche en un cazo o una cacerola pequeña sin dejar que rompa a hervir. En los ingredientes te sugerimos que la leche sea desnatada para que el resultado sea más ligero, pero también es posible reemplazarla por la leche que tomes habitualmente."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Por otro lado, deberás cascar los huevos en un bol para batirlos y, a continuación, tendrás que agregar el edulcorante que hayas elegido -sacarina líquida, stevia, etc.- así como la esencia de vainilla. La cantidad de esta última deberás ajustarla a tu gusto, según cuán intenso quieres que sea el sabor avainillado de tu flan casero."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seguidamente, deberás ir vertiendo la leche caliente en el recipiente de los huevos batidos e ir removiendo en todo momento para evitar que se cuajen los huevos. Te recomendamos que lo hagas con unas varillas manuales, aunque si lo prefieres también podrás usar las eléctricas. En el momento en que la leche se haya integrado completamente en la mezcla, deberás dejar de batir y retirar la espuma -en caso de que se haya formado en la superficie- y ya podrás verter la mezcla en la flanera. Así mismo, también puedes optar por pequeños moldes, vasos o cualquier otro tipo de recipientes para conseguir así flanes individuales.  A continuación, ya podrás ponerlo al baño María para que se cocine tu flan para diabéticos; puedes elegir entre meter el molde en el horno encima de la bandeja con agua o en una cacerola al fuego."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <Button
+                android:id="@+id/btnyoutube"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FF0000"
+                android:onClick="irpostre1diabetes1"
+                android:text="Ver en Youtube"
+                app:cornerRadius="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

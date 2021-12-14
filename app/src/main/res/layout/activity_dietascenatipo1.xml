@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dietascenatipo1">
+
+    <Button
+        android:id="@+id/btnsalir5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="Regresar"
+        android:textColor="#267D20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="281dp"
+        android:layout_height="37dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Para diabetes tipo 1"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="103dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/logodiabetic" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="352dp"
+        android:layout_height="38dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Se recomienda las siguientes cenas:"
+        android:textAlignment="textStart"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.271"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="597dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btndietacena11"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Revuelto de judias"
+                android:onClick="ircena1diabetes1"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena12"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Seitan de verduras"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena13"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Ensalada de quinua"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena14"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Crema de calabaza"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena15"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Crema de moraya"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena16"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Bacalao al horno"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena17"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Hamburguesa vegetariana"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena18"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Arbejas hervidas"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+            <Button
+                android:id="@+id/btndietacena19"
+                android:layout_width="match_parent"
+                android:layout_height="139dp"
+                android:backgroundTint="#ABA356"
+                android:text="Revuelto de calabacin"
+                app:cornerRadius="25dp"
+                app:icon="@drawable/cenaicn"
+                app:iconGravity="textEnd"
+                app:iconSize="90dp"
+                app:iconTintMode="multiply"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.694" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

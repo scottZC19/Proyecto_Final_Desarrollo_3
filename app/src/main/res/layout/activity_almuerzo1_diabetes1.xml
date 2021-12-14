@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Almuerzo1Diabetes1">
+    <Button
+        android:id="@+id/btnsalir6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="Regresar"
+        android:textColor="#267D20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="281dp"
+        android:layout_height="37dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Espaguetis de Calabacin"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="103dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/logodiabetic" />
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="680dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="394dp"
+                android:layout_height="285dp"
+                app:srcCompat="@drawable/calabasinround" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="281dp"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Ingredientes:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- 2 calabacines."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Tomate frito o salsa de tomate casera, cantidad al gusto."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Queso, cantidad y tipo al gusto."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="- Aceite de oliva virgen extra."
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:elegantTextHeight="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Preparacion:"
+                android:textAlignment="textStart"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Como el proceso de preparar los espaguetis de calabacín va a ser muy rápido, prepara previamente cualquier salsa o condimento que vayas a añadirles. Puedes optar por nuestra salsa de tomate casera pero también le van geniales la salsa de aguacate o la salsa pesto casera."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lava los calabacines bajo un chorro de agua fría, sécalos con papel de cocina y córtales el extremo que termina en forma redonda (el otro extremo consérvalo, el que lleva el tallo, ya que nos permitirá seguir presionando el calabacín en el espiralizador cuando quede poco)."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahora utiliza tu espiralizador para ir «sacándole punta» a los calabacines y obtener los espaguetis de calabacín. Si te fijas el modelo que utilizo yo tiene dos sacapuntas, uno para tiras más finas y otro para más gruesas (que es el que he utilizado yo en esta ocasión). Lo bueno es que va haciendo espaguetis de todo el calabacín excepto del centro que se va quedando en el espiralizador. Esto es lo ideal ya que te recomiendo retirar cualquier espagueti que incluya parte de las semillas del centro del calabacín las cuales estropean el resultado final al cocinarlo ya que no paran de soltar líquido."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ya tenemos nuestros espaguetis de calabacín. Se pueden cocinar de varias formas, por ejemplo al vapor tanto en una olla como al microondas e incluso comerlos crudos, pero mi forma favorita es en sartén. Recuerda en todo momento que lo que queremos es mantener su textura firme para que se parezcan lo máximo posible a la pasta así que hay que cocinarlos muy poco."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnyoutube"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:backgroundTint="#FF0000"
+                android:onClick="iryoutubedesayuno1"
+                android:text="Ver en Youtube"
+                app:cornerRadius="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.656" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

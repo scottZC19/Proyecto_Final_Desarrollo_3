@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">diabetic</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="facebook_app_id">264867142282765</string>
+    <string name="fb_login_protocol_scheme">fb264867142282765</string>
+    <string name="title_activity_rutas">Rutas</string>
+
+</resources>
